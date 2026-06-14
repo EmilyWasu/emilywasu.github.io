@@ -227,4 +227,149 @@ html[data-theme=dark] {
 
 .cv-footer {
   border-color: var(--cv-footer-border) !important;
+}
+
+.cv-section-label {
+  font-family: var(--body-font);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--cv-accent);
+}
+
+.cv-title {
+  font-family: var(--title-font);
+  font-size: clamp(2.8rem, 1.7rem + 3vw, 4.5rem);
+  font-weight: 700;
+  line-height: 0.95;
+  color: var(--cv-text);
+}
+
+.cv-subtitle {
+  font-family: var(--body-font);
+  font-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.75rem);
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--cv-accent);
+}
+
+.cv-description {
+  font-family: var(--body-font);
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  font-weight: 400;
+  line-height: 1.8;
+  color: var(--cv-text-muted);
+  max-width: 60ch;
+}
+
+.cv-heading {
+  font-family: var(--title-font);
+  color: var(--cv-text);
+}
+
+.cv-list {
+  font-family: var(--body-font);
+  color: var(--cv-text-muted);
+  line-height: 1.8;
+}
+
+.cv-list-strong {
+  color: var(--cv-text);
+}
+
+.cv-badge {
+  font-family: var(--body-font);
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: var(--cv-badge-bg);
+  color: var(--cv-badge-text);
+}
+
+.cv-section-bg {
+  background-color: var(--cv-bg);
+}
+
+.cv-section-label {
+  font-family: var(--body-font);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cv-accent);
+}
+
+.cv-title-2 {
+  font-family: var(--title-font);
+  font-size: clamp(2.2rem, 1.5rem + 2vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--cv-text);
+}
+
+.cv-card-title {
+  font-family: var(--title-font);
+  font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--cv-text);
+}
+
+.cv-card-text {
+  font-family: var(--body-font);
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--cv-text-muted);
+}
+
+.cv-badge {
+  font-family: var(--body-font);
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: var(--cv-badge-bg);
+  color: var(--cv-badge-text);
+}
+
+.cv-card {
+  background-color: var(--cv-surface);
+  border-radius: 1rem;
+}
+
+.cv-section-label {
+  font-family: var(--body-font);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cv-accent);
+}
+
+.cv-title-2 {
+  font-family: var(--title-font);
+  font-size: clamp(2.2rem, 1.5rem + 2vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--cv-text);
+}
+
+.cv-card-title {
+  font-family: var(--title-font);
+  font-weight: 700;
+  color: var(--cv-text);
+}
+
+.cv-card-subtitle {
+  font-family: var(--body-font);
+  color: var(--cv-text-muted);
+}
+
+.cv-card-text-long {
+  font-family: var(--body-font);
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  line-height: 1.8;
+  color: var(--cv-text-muted);
+}
+
+.cv-card {
+  background-color: var(--cv-surface);
+  border-radius: 1rem;
 }/*# sourceMappingURL=curriculum.css.map */

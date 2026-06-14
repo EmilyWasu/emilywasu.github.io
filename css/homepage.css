@@ -212,13 +212,6 @@ html[data-theme=dark] {
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
-body {
-  background-color: var(--page-bg);
-  color: var(--page-text);
-  font-family: var(--body-font), "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.4;
-}
-
 /* CHI SONO */
 .about-section {
   background-color: var(--section-soft-bg);
@@ -261,7 +254,7 @@ body {
 .about-text {
   font-family: var(--body-font);
   font-size: var(--text-size);
-  line-height: 1.8;
+  line-height: 1.5;
   color: var(--text-color);
   margin-bottom: 1rem;
 }

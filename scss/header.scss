@@ -1,12 +1,11 @@
 @use "./_variables.scss";
 
-/* NAVBAR */
 #navbarSupportedContent {
   flex-grow: unset;
 }
 
 /* HEADER */
-#main_header .navbar {
+ .navbar {
   background-color: var(--header-bg) !important;
   padding: 1rem 1.5rem;
   border-bottom: 1px solid var(--header-border);
