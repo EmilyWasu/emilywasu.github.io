@@ -1,0 +1,248 @@
+:root,
+html[data-theme=light] {
+  --title-font: "DM Sans", sans-serif;
+  --body-font: "Inter", sans-serif;
+  --accent-font: "Lora", serif;
+  --h2-size: clamp(2.2rem, 1.5rem + 2vw, 3.5rem);
+  --title-size: clamp(2.8rem, 1.7rem + 3vw, 4.5rem);
+  --text-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  --page-bg: #ffffff;
+  --page-text: #262626;
+  --text-color: #444444;
+  --title-color: #111111;
+  --muted-text: #6b5560;
+  --brand-accent: #9f4f67;
+  --brand-accent-hover: #be7c90;
+  --brand-accent-active: #7a394d;
+  --brand-accent-soft: rgba(159, 79, 103, 0.08);
+  --section-soft-bg: #fffafc;
+  --card-bg: #ffffff;
+  --card-border: rgba(159, 79, 103, 0.12);
+  --card-shadow: 0 12px 30px rgba(159, 79, 103, 0.06);
+  --image-soft-shadow: 0 12px 30px rgba(159, 79, 103, 0.10);
+  --input-bg: #ffffff;
+  --input-border: rgba(159, 79, 103, 0.18);
+  --input-border-focus: #eb7598;
+  --input-focus-ring: rgba(235, 117, 152, 0.15);
+  --input-text: #222222;
+  --input-placeholder: #9b7b86;
+  --form-label-color: #9f4f67;
+  --link-accent: #9f4f67;
+  --link-accent-hover: #be7c90;
+  --footer-bg: #ffffff;
+  --footer-border: rgba(159, 79, 103, 0.15);
+  --footer-text: #9f4f67;
+  --hero-gradient-top: rgba(159, 79, 103, 0.05);
+  --hero-gradient-bottom: rgba(255, 255, 255, 1);
+  --hero-label-color: #9f4f67;
+  --hero-title-color: var(--title-color);
+  --hero-accent-color: #9f4f67;
+  --hero-text-color: var(--text-color);
+  --header-bg: #ffffff;
+  --header-border: rgba(159, 79, 103, 0.08);
+  --header-border-strong: rgba(159, 79, 103, 0.12);
+  --header-link: #9f4f67;
+  --header-link-hover: #be7c90;
+  --header-link-active: #9f4f67;
+  --header-toggle-bg: #ffffff;
+  --header-toggle-bg-hover: #f8eef1;
+  --header-toggle-border: rgba(159, 79, 103, 0.18);
+  --header-toggle-border-hover: rgba(159, 79, 103, 0.3);
+  --header-toggle-icon: #9f4f67;
+  --header-toggle-icon-hover: #9f4f67;
+  --navbar-toggler-filter: invert(33%) sepia(18%) saturate(1074%) hue-rotate(292deg) brightness(92%) contrast(88%);
+  --projects-section-bg: #ffffff;
+  --projects-intro-color: #4a4a4a;
+  --filter-bg: transparent;
+  --filter-border: #9f4f67;
+  --filter-text: #9f4f67;
+  --filter-active-bg: #9f4f67;
+  --filter-active-text: #ffffff;
+  --filter-active-border: #9f4f67;
+  --project-card-bg: transparent;
+  --project-card-shadow: none;
+  --project-card-shadow-hover: none;
+  --project-tag-bg: rgba(159, 79, 103, 0.08);
+  --project-tag-text: #9f4f67;
+  --project-text-color: #3f3f3f;
+  --project-focus: #9f4f67;
+  --button-primary-bg: #9f4f67;
+  --button-primary-hover: #be7c90;
+  --button-primary-active: #7a394d;
+  --button-primary-text: #ffffff;
+  --button-secondary-bg: #ffffff;
+  --button-secondary-text: #9f4f67;
+  --button-secondary-border: #9f4f67;
+  --button-secondary-hover-bg: #be7c90;
+  --button-secondary-hover-text: #ffffff;
+  --button-secondary-hover-border: #be7c90;
+}
+
+html[data-theme=dark] {
+  --page-bg: #161216;
+  --page-text: #f3e8ec;
+  --text-color: #ddd1d6;
+  --title-color: #fff4f7;
+  --muted-text: #bba7af;
+  --brand-accent: #d295a8;
+  --brand-accent-hover: #e4b4c2;
+  --brand-accent-active: #b97a90;
+  --brand-accent-soft: rgba(232, 154, 178, 0.14);
+  --section-soft-bg: #1d171c;
+  --card-bg: #211a20;
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+  --image-soft-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+  --input-bg: #2a2128;
+  --input-border: rgba(255, 255, 255, 0.1);
+  --input-border-focus: #e89ab2;
+  --input-focus-ring: rgba(232, 154, 178, 0.18);
+  --input-text: #f7edf1;
+  --input-placeholder: #b79ca6;
+  --form-label-color: #e8c2cd;
+  --link-accent: #f0c2cf;
+  --link-accent-hover: #ffffff;
+  --footer-bg: #161216;
+  --footer-border: rgba(255, 255, 255, 0.08);
+  --footer-text: #f0c2cf;
+  --hero-gradient-top: rgba(159, 79, 103, 0.14);
+  --hero-gradient-bottom: #161216;
+  --hero-label-color: #dca5b5;
+  --hero-title-color: #f8edf1;
+  --hero-accent-color: #e7b8c5;
+  --hero-text-color: #e7dbe0;
+  --header-bg: #161216;
+  --header-border: rgba(255, 255, 255, 0.08);
+  --header-border-strong: rgba(255, 255, 255, 0.12);
+  --header-link: #f1d7df;
+  --header-link-hover: #dca5b5;
+  --header-link-active: #ffffff;
+  --header-toggle-bg: #211a20;
+  --header-toggle-bg-hover: #2a2128;
+  --header-toggle-border: rgba(255, 255, 255, 0.14);
+  --header-toggle-border-hover: rgba(255, 255, 255, 0.26);
+  --header-toggle-icon: #f1d7df;
+  --header-toggle-icon-hover: #ffffff;
+  --navbar-toggler-filter: invert(33%) sepia(18%) saturate(1074%) hue-rotate(292deg) brightness(92%) contrast(88%);
+  --projects-section-bg: #161216;
+  --projects-intro-color: #d3c6cb;
+  --filter-bg: transparent;
+  --filter-border: #c88ca0;
+  --filter-text: #f0d6de;
+  --filter-active-bg: #c88ca0;
+  --filter-active-text: #1a1116;
+  --filter-active-border: #c88ca0;
+  --project-card-bg: transparent;
+  --project-card-shadow: none;
+  --project-card-shadow-hover: none;
+  --project-tag-bg: rgba(232, 154, 178, 0.14);
+  --project-tag-text: #f2c8d4;
+  --project-text-color: #ddd1d6;
+  --project-focus: #f0c2cf;
+  --button-primary-bg: #c97f96;
+  --button-primary-hover: #dfa0b3;
+  --button-primary-active: #b96c84;
+  --button-primary-text: #1a1116;
+  --button-secondary-bg: transparent;
+  --button-secondary-text: #f0c2cf;
+  --button-secondary-border: #c88ca0;
+  --button-secondary-hover-bg: #c88ca0;
+  --button-secondary-hover-text: #1a1116;
+  --button-secondary-hover-border: #c88ca0;
+}
+
+.dm-sans-normal {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.btn-primary {
+  --bs-btn-color: var(--button-primary-text);
+  --bs-btn-bg: var(--button-primary-bg);
+  --bs-btn-border-color: var(--button-primary-bg);
+  --bs-btn-hover-color: var(--button-primary-text);
+  --bs-btn-hover-bg: var(--button-primary-hover);
+  --bs-btn-hover-border-color: var(--button-primary-hover);
+  --bs-btn-focus-shadow-rgb: 159, 79, 103;
+  --bs-btn-active-color: var(--button-primary-text);
+  --bs-btn-active-bg: var(--button-primary-active);
+  --bs-btn-active-border-color: var(--button-primary-active);
+  padding: 0.9rem 1.4rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: var(--button-secondary-text);
+  --bs-btn-bg: var(--button-secondary-bg);
+  --bs-btn-border-color: var(--button-secondary-border);
+  --bs-btn-hover-color: var(--button-secondary-hover-text);
+  --bs-btn-hover-bg: var(--button-secondary-hover-bg);
+  --bs-btn-hover-border-color: var(--button-secondary-hover-border);
+  --bs-btn-focus-shadow-rgb: 159, 79, 103;
+  --bs-btn-active-color: var(--button-secondary-hover-text);
+  --bs-btn-active-bg: var(--button-primary-active);
+  --bs-btn-active-border-color: var(--button-primary-active);
+  padding: 0.9rem 1.4rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  background: linear-gradient(180deg, var(--hero-gradient-top) 0%, var(--hero-gradient-bottom) 60%);
+}
+
+.hero-role {
+  font-family: var(--body-font);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--hero-label-color);
+  margin-bottom: 0.5rem;
+}
+
+.hero-text {
+  font-family: var(--title-font);
+  font-size: var(--title-size);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  color: var(--hero-title-color);
+  margin-bottom: 1.5rem;
+}
+
+.hero-accent {
+  font-family: var(--accent-font);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--hero-accent-color);
+}
+
+.hero-section .lead {
+  font-family: var(--body-font);
+  font-size: var(--text-size);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: var(--hero-text-color);
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=hero.css.map */
