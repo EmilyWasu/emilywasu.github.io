@@ -76,6 +76,14 @@ html[data-theme=light] {
   --button-secondary-hover-bg: #be7c90;
   --button-secondary-hover-text: #ffffff;
   --button-secondary-hover-border: #be7c90;
+  --cv-bg: #ffffff;
+  --cv-surface: #ffffff;
+  --cv-text: #111111;
+  --cv-text-muted: #444444;
+  --cv-accent: #9E4F67;
+  --cv-badge-bg: #f6eef1;
+  --cv-badge-text: #9E4F67;
+  --cv-footer-border: rgba(17, 17, 17, 0.08);
 }
 
 html[data-theme=dark] {
@@ -149,6 +157,14 @@ html[data-theme=dark] {
   --button-secondary-hover-bg: #c88ca0;
   --button-secondary-hover-text: #1a1116;
   --button-secondary-hover-border: #c88ca0;
+  --cv-bg: #121212;
+  --cv-surface: #1b1b1b;
+  --cv-text: #f5f3f4;
+  --cv-text-muted: #c9c1c4;
+  --cv-accent: #d18ba0;
+  --cv-badge-bg: #2b1f24;
+  --cv-badge-text: #f0c8d4;
+  --cv-footer-border: rgba(255, 255, 255, 0.08);
 }
 
 .dm-sans-normal {

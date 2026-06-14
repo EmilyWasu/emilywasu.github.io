@@ -76,6 +76,14 @@ html[data-theme=light] {
   --button-secondary-hover-bg: #be7c90;
   --button-secondary-hover-text: #ffffff;
   --button-secondary-hover-border: #be7c90;
+  --cv-bg: #ffffff;
+  --cv-surface: #ffffff;
+  --cv-text: #111111;
+  --cv-text-muted: #444444;
+  --cv-accent: #9E4F67;
+  --cv-badge-bg: #f6eef1;
+  --cv-badge-text: #9E4F67;
+  --cv-footer-border: rgba(17, 17, 17, 0.08);
 }
 
 html[data-theme=dark] {
@@ -149,6 +157,14 @@ html[data-theme=dark] {
   --button-secondary-hover-bg: #c88ca0;
   --button-secondary-hover-text: #1a1116;
   --button-secondary-hover-border: #c88ca0;
+  --cv-bg: #121212;
+  --cv-surface: #1b1b1b;
+  --cv-text: #f5f3f4;
+  --cv-text-muted: #c9c1c4;
+  --cv-accent: #d18ba0;
+  --cv-badge-bg: #2b1f24;
+  --cv-badge-text: #f0c8d4;
+  --cv-footer-border: rgba(255, 255, 255, 0.08);
 }
 
 .dm-sans-normal {
@@ -203,7 +219,7 @@ body {
   line-height: 1.4;
 }
 
-/* ABOUT */
+/* CHI SONO */
 .about-section {
   background-color: var(--section-soft-bg);
   padding-top: 5rem;
@@ -254,7 +270,7 @@ body {
   margin-top: 1.5rem;
 }
 
-/* CONTACT */
+/* CONTATTAMI */
 .contact-section {
   background-color: var(--section-soft-bg);
   padding-top: 5rem;
@@ -345,7 +361,7 @@ body {
   font-family: var(--body-font);
 }
 
-/* REVEAL */
+/* EFFETTI DI COMPARSA */
 .reveal-section {
   opacity: 0;
   transform: translateY(60px);
@@ -357,7 +373,7 @@ body {
   transform: translateY(0);
 }
 
-/* Navbar bootstrap */
+/* NAVBAR */
 #navbarSupportedContent {
   flex-grow: unset;
 }
@@ -414,7 +430,7 @@ body {
   font-weight: 600;
 }
 
-/* ACTIONS */
+/* TEMA CHIARO SCURO*/
 #main_header .header-actions {
   display: flex;
   align-items: center;
@@ -422,7 +438,6 @@ body {
   margin-left: auto;
 }
 
-/* THEME TOGGLE */
 #main_header .theme-toggle {
   width: 44px;
   height: 44px;
@@ -462,7 +477,7 @@ html[data-theme=dark] #main_header .theme-icon-sun {
   display: inline-flex;
 }
 
-/* BURGER */
+/* BURGER ICONA*/
 #main_header .navbar-toggler {
   border: none;
   box-shadow: none;

@@ -1,0 +1,18 @@
+@use './_variables.scss';
+
+.cv-main {
+  background-color: var(--cv-bg);
+}
+
+.cv-card {
+  background-color: var(--cv-surface) !important;
+}
+
+.cv-badge {
+  background-color: var(--cv-badge-bg) !important;
+  color: var(--cv-badge-text) !important;
+}
+
+.cv-footer {
+  border-color: var(--cv-footer-border) !important;
+}
