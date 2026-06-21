@@ -382,7 +382,7 @@
               <div class="mb-3 field">
                 <label for="email" class="form-label">Email</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="email"
                   name="email"
@@ -403,24 +403,23 @@
 
               <div class="mb-4 field">
                 <label for="message" class="form-label">Messaggio</label>
-                <textarea
+                <input
+                type="text"
                   class="form-control"
                   id="message"
                   name="message"
                   rows="6"
                   required
-                ></textarea>
+                ></input>
               </div>
 
               <input type="submit" class="btn btn-primary" id="button" value="Invia messaggio">
             </input>
-
-              <p id="form-status" class="mt-3 mb-0"></p>
             </form>
           </div>
         </div>
       </div>
-    </section>
+    
 
     <script
       type="text/javascript"
@@ -430,6 +429,7 @@
     <script type="text/javascript">
       emailjs.init('ksY67XSs4VtD-PWGL');
     </script>
+    </section>
 
     <!-----------------------------FOOTER---------------------------->
     <footer class="site-footer">
