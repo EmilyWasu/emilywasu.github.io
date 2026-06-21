@@ -254,7 +254,7 @@ html[data-theme=dark] {
 .about-text {
   font-family: var(--body-font);
   font-size: var(--text-size);
-  line-height: 1.8;
+  line-height: 1.5;
   color: var(--text-color);
   margin-bottom: 1rem;
 }
@@ -578,15 +578,22 @@ html[data-theme=dark] #main_header .theme-icon-sun {
 
 .projects-title {
   font-family: var(--title-font);
-  font-size: var(--title-size);
+  font-size: var(--h2-size);
   font-weight: 700;
   color: var(--title-color);
   margin-bottom: 1rem;
 }
 
+.project-title-accent {
+  font-family: var(--accent-font);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--hero-accent-color);
+}
+
 .projects-intro {
   font-family: var(--body-font);
-  font-size: 1rem;
+  font-size: var(--text-size);
   line-height: 1.8;
   color: var(--projects-intro-color);
   max-width: 60ch;
@@ -633,12 +640,6 @@ html[data-theme=dark] #main_header .theme-icon-sun {
   height: 100%;
   text-decoration: none;
   color: inherit;
-}
-
-.project-case-card:hover,
-.project-case-card:focus-within {
-  transform: translateY(-4px);
-  box-shadow: var(--project-card-shadow-hover);
 }
 
 /* IMMAGINE */

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emiliana Forestiere</title>
+    <link rel="icon" type="image/x-icon" href="media/Logo-emily.svg">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -33,6 +34,9 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
+
+    
+
   </head>
 
   <body>
@@ -126,7 +130,7 @@
           <div class="col-md-8">
             <p class="section-label">About me</p>
             <h2 class="about-title">
-              Non fermarti alle apparenze,
+              Non fermarti alle apparenze,<br>
               <span class="hero-accent reveal-section">scopri chi sono</span>
             </h2>
 
@@ -164,7 +168,7 @@
       <div class="container-fluid px-3 px-lg-5">
         <!-- INTRO -->
         <div class="projects-heading text-center mb-5">
-          <p class="section-label">progetti</p>
+          <p class="section-label">projects</p>
           <h2 class="projects-title">
             Il mio percorso, <br>
             <span class="project-title-accent reveal-section is-visible">progetto dopo progetto</span>
@@ -182,8 +186,8 @@
           <button class="btn filter-btn active" data-filter="all">Tutti</button>
           <button class="btn filter-btn" data-filter="ux">UX</button>
           <button class="btn filter-btn" data-filter="ui">UI</button>
-          <button class="btn filter-btn" data-filter="branding">
-            Branding
+          <button class="btn filter-btn" data-filter="grafica">
+            Grafica
           </button>
           <button class="btn filter-btn" data-filter="copywriting">
             Copywriting
@@ -192,10 +196,11 @@
 
         <!-- GRIGLIA: 1 colonna mobile / 2 colonne desktop -->
         <div class="row row-cols-1 row-cols-xxl-2 g-4">
-          <!-- CASE STUDY 1 -->
-          <div class="col-12 col-lg-6 project-item" data-category="branding">
+
+          <!-- PROGETTO -->
+          <div class="col-12 col-lg-6 project-item" data-category="grafica">
             <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-1.html" class="project-image-link">
+              <a href="grafica.html" class="project-image-link">
                 <img
                   src="./media/img-progetti/Progetto Grafica.jpg"
                   class="project-case-img"
@@ -205,29 +210,27 @@
 
               <div class="project-case-content card-body">
                 <div class="project-meta">
-                  <span>Branding</span>
+                  <span>Grafica</span>
                   <span>2024</span>
                 </div>
 
-                <h3 class="project-card-title">Branding di Planty of Food</h3>
+                <h3 class="project-card-title">Planty of Food</h3>
 
                 <p class="project-card-text">
-                  Breve introduzione al progetto, al problema affrontato e al
-                  tipo di esperienza progettata, con un tono più editoriale e
-                  ordinato.
+                Sviluppo di una brand identity completa, con logo, palette colori, tipografia, icone e post per social media per un e-commerce di prodotti plant-based.
                 </p>
               </div>
             </article>
           </div>
 
-          <!-- CASE STUDY 2 -->
+          <!-- PROGETTO -->
           <div class="col-12 col-lg-6 project-item" data-category="copywriting">
             <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-2.html" class="project-image-link">
+              <a href="copywriting.html" class="project-image-link">
                 <img
                   src="./media/img-progetti/Progetto Copywriting.jpg"
                   class="project-case-img"
-                  alt="Apri il case study del progetto Nome del progetto 2"
+                  alt="Apri il case study del progetto copywriting"
                 />
               </a>
 
@@ -237,240 +240,98 @@
                   <span>2025</span>
                 </div>
 
-                <h3 class="project-card-title">Nome del progetto 2</h3>
+                <h3 class="project-card-title">Paradosso della carne: esiste una soluzione per un carnivoro in conflitto?
+</h3>
 
                 <p class="project-card-text">
-                  Breve introduzione al progetto, al contesto e al risultato
-                  desiderato, con focus su struttura, estetica e chiarezza della
-                  navigazione.
+                Articolo realizzato per un’azienda di carne coltivata. Ho lavorato su tono, analisi del target, struttura narrativa, trasformando un tema complesso in un contenuto accessibile e coinvolgente.
                 </p>
               </div>
             </article>
           </div>
 
-          <!-- CASE STUDY 3 -->
+          <!-- PROGETTO -->
           <div class="col-12 col-lg-6 project-item" data-category="ux">
             <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-3.html" class="project-image-link">
+              <a href="discovery.html" class="project-image-link">
                 <img
-                  src="./media/img-progetti/Progetto Discovery 1.jpg"
+                  src="./media/pdf-progetti/discovery/1.jpg"
                   class="project-case-img"
-                  alt="Apri il case study del progetto Nome del progetto 3"
+                  alt="Apri il case study del progetto discovery"
                 />
               </a>
 
               <div class="project-case-content card-body">
                 <div class="project-meta">
-                  <span>User Research</span>
-                  <span>2026</span>
-                </div>
-
-                <h3 class="project-card-title">Nome del progetto 3</h3>
-
-                <p class="project-card-text">
-                  Breve introduzione al progetto, con attenzione alla soluzione
-                  visiva, alla coerenza dei componenti e alla qualità
-                  dell’interfaccia finale.
-                </p>
-              </div>
-            </article>
-          </div>
-
-          <!-- CASE STUDY 4 -->
-          <div class="col-12 col-lg-6 project-item" data-category="ux">
-            <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-4.html" class="project-image-link">
-                <img
-                  src="./media/img-progetti/Progetto Discovery 2.jpg"
-                  class="project-case-img"
-                  alt="Apri il case study del progetto Nome del progetto 4"
-                />
-              </a>
-
-              <div class="project-case-content card-body">
-                <div class="project-meta">
-                  <span>UX / Web</span>
-                  <span>2026</span>
-                </div>
-
-                <h3 class="project-card-title">Nome del progetto 4</h3>
-
-                <p class="project-card-text">
-                  Un progetto orientato all’esperienza utente e alla
-                  progettazione di un’interfaccia chiara, accessibile e ben
-                  strutturata.
-                </p>
-              </div>
-            </article>
-          </div>
-
-          <!-- CASE STUDY 5 -->
-          <div class="col-12 col-lg-6 project-item" data-category="ux">
-            <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-1.html" class="project-image-link">
-                <img
-                  src="./media/img-progetti/Progetto accessibilità.jpg"
-                  class="project-case-img"
-                  alt="Apri il case study del progetto grafica"
-                />
-              </a>
-
-              <div class="project-case-content card-body">
-                <div class="project-meta">
-                  <span>Branding</span>
-                  <span>2024</span>
-                </div>
-
-                <h3 class="project-card-title">Accessibilità</h3>
-
-                <p class="project-card-text">
-                  Breve introduzione al progetto, al problema affrontato e al
-                  tipo di esperienza progettata, con un tono più editoriale e
-                  ordinato.
-                </p>
-              </div>
-            </article>
-          </div>
-
-          <!-- CASE STUDY 6 -->
-          <div class="col-12 col-lg-6 project-item" data-category="ux">
-            <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-2.html" class="project-image-link">
-                <img
-                  src="./media/img-progetti/Copia di Progetto Accessibilità 2.jpg"
-                  class="project-case-img"
-                  alt="Apri il case study del progetto Nome del progetto 2"
-                />
-              </a>
-
-              <div class="project-case-content card-body">
-                <div class="project-meta">
-                  <span>Copywriting</span>
+                  <span>UX</span>
                   <span>2025</span>
                 </div>
 
-                <h3 class="project-card-title">Nome del progetto 2</h3>
+                <h3 class="project-card-title">User research, Buddhify</h3>
 
                 <p class="project-card-text">
-                  Breve introduzione al progetto, al contesto e al risultato
-                  desiderato, con focus su struttura, estetica e chiarezza della
-                  navigazione.
+               Analisi UX con valutazione euristica di Buddhify, benchmarking dei competitor, definizione del target tramite sondaggio, sviluppo di user personas, user journey, valutazione euristica e riorganizzazione dell’architettura informativa.
                 </p>
               </div>
             </article>
           </div>
 
-          <!-- CASE STUDY 7 -->
-          <div class="col-12 col-lg-6 project-item" data-category="ui">
+
+
+          <!-- PROGETTO -->
+          <div class="col-12 col-lg-6 project-item" data-category="ux">
             <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-3.html" class="project-image-link">
+              <a href="accessibilità.html" class="project-image-link">
                 <img
-                  src="./media/img-progetti/Progetto Wireframing 1.jpg"
+                  src="./media/pdf-progetti/accessibilità/Progetto accessibilità_page-0001.jpg"
                   class="project-case-img"
-                  alt="Apri il case study del progetto Nome del progetto 3"
+                  alt="Apri il case study del progetto di accessibilità"
                 />
               </a>
 
               <div class="project-case-content card-body">
                 <div class="project-meta">
-                  <span>User Research</span>
-                  <span>2026</span>
+                  <span>UX</span>
+                  <span>2025</span>
                 </div>
 
-                <h3 class="project-card-title">Nome del progetto 3</h3>
+                <h3 class="project-card-title">Analisi di accessibilità, Buddhify</h3>
 
                 <p class="project-card-text">
-                  Breve introduzione al progetto, con attenzione alla soluzione
-                  visiva, alla coerenza dei componenti e alla qualità
-                  dell’interfaccia finale.
+                  Valutazione dei requisiti di accessibilità del sito web di Buddhify, creazione user personas, user journeys e proposte di miglioramento per 
                 </p>
               </div>
             </article>
           </div>
 
-          <!-- CASE STUDY 8 -->
+
+         
+          <!-- PROGETTO -->
           <div class="col-12 col-lg-6 project-item" data-category="ui">
             <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-4.html" class="project-image-link">
+              <a href="userinterface.html" class="project-image-link">
                 <img
-                  src="./media/img-progetti/Progetto Wireframing 2.jpg"
+                  src="./media/pdf-progetti/userinterface/1.jpg"
                   class="project-case-img"
-                  alt="Apri il case study del progetto Nome del progetto 4"
+                  alt="Apri il case study del progetto interfaccia utente"
                 />
               </a>
 
               <div class="project-case-content card-body">
                 <div class="project-meta">
-                  <span>UX / Web</span>
+                  <span>UI</span>
                   <span>2026</span>
                 </div>
 
-                <h3 class="project-card-title">Nome del progetto 4</h3>
+                <h3 class="project-card-title">Interfaccia utente, Buddhify</h3>
 
                 <p class="project-card-text">
-                  Un progetto orientato all’esperienza utente e alla
-                  progettazione di un’interfaccia chiara, accessibile e ben
-                  strutturata.
+                  Realizzazione dell'interfaccia del sito di Buddhify sulla base di tutte le informazioni raccolte durante la ricerca. Scelte tipografiche, palette colori, tone of voice, struttura dell'interfaccia e obiettivi.
                 </p>
               </div>
             </article>
           </div>
 
-          <!-- CASE STUDY 9 -->
-          <div class="col-12 col-lg-6 project-item" data-category="ui">
-            <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-3.html" class="project-image-link">
-                <img
-                  src="./media/img-progetti/Progetto User Interface 1.jpg"
-                  class="project-case-img"
-                  alt="Apri il case study del progetto Nome del progetto 3"
-                />
-              </a>
-
-              <div class="project-case-content card-body">
-                <div class="project-meta">
-                  <span>User Research</span>
-                  <span>2026</span>
-                </div>
-
-                <h3 class="project-card-title">Nome del progetto 3</h3>
-
-                <p class="project-card-text">
-                  Breve introduzione al progetto, con attenzione alla soluzione
-                  visiva, alla coerenza dei componenti e alla qualità
-                  dell’interfaccia finale.
-                </p>
-              </div>
-            </article>
-          </div>
-
-          <!-- CASE STUDY 10 -->
-          <div class="col-12 col-lg-6 project-item" data-category="ui">
-            <article class="project-case-card card border-0 h-100">
-              <a href="pagina-progetto-4.html" class="project-image-link">
-                <img
-                  src="./media/img-progetti/Progetto User Interface 2.jpg"
-                  class="project-case-img"
-                  alt="Apri il case study del progetto Nome del progetto 4"
-                />
-              </a>
-
-              <div class="project-case-content card-body">
-                <div class="project-meta">
-                  <span>UX / Web</span>
-                  <span>2026</span>
-                </div>
-
-                <h3 class="project-card-title">Nome del progetto 4</h3>
-
-                <p class="project-card-text">
-                  Un progetto orientato all’esperienza utente e alla
-                  progettazione di un’interfaccia chiara, accessibile e ben
-                  strutturata.
-                </p>
-              </div>
-            </article>
-          </div>
         </div>
       </div>
     </section>
@@ -480,7 +341,7 @@
       <div class="container">
         <div class="row g-5 align-items-start">
           <div class="col-lg-5">
-            <p class="section-label">Contact</p>
+            <p class="section-label">Get in touch</p>
             <h2 class="about-title">Contattami</h2>
             <p class="about-text">
               Se vuoi collaborare con me o semplicemente scrivermi, compila il
@@ -573,7 +434,31 @@
 
     <!-----------------------------FOOTER---------------------------->
     <footer class="site-footer">
-      <p>© 2026 Emiliana Forestiere — All rights reserved</p>
+      <p>© 2026 Emiliana Forestiere</p>
+
+            
+      <div class="gap-3 align-items-center">
+            <a
+              href="https://www.linkedin.com/in/emiliana-forestiere"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="linkedin-contact-link"
+              aria-label="Visit my LinkedIn profile"
+            >
+              <i class="bi bi-linkedin fs-3"></i>
+            </a>
+            <a
+              href="https://github.com/EmilyWasu"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="linkedin-contact-link"
+              aria-label="Visit my Github profile"
+            >
+              <i class="bi bi-github fs-3"></i>
+            </a>
+
+            </div>
+          </div>
     </footer>
 
     <!------------------------------------Javascript----------------------------->
@@ -654,10 +539,6 @@
     </script>
 
     <!--JS PER CAMBIO TEMA CHIARO/SCURO-->
-<button data-theme-toggle>
-  Toggle tema
-</button>
-
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {

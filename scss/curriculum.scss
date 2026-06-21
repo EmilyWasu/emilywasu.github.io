@@ -2,19 +2,20 @@
 
 .cv-main {
   background-color: var(--cv-bg);
+  padding-top: 128px;
 }
 
 .cv-card {
-  background-color: var(--cv-surface) !important;
+  background-color: var(--cv-surface);
 }
 
 .cv-badge {
-  background-color: var(--cv-badge-bg) !important;
-  color: var(--cv-badge-text) !important;
+  background-color: var(--cv-badge-bg);
+  color: var(--cv-badge-text);
 }
 
 .cv-footer {
-  border-color: var(--cv-footer-border) !important;
+  border-color: var(--cv-footer-border);
 }
 
 .cv-section-label {
