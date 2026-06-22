@@ -436,6 +436,8 @@
     </footer>
 
     <!------------------------------------Javascript----------------------------->
+
+    <!--EMAILJS-->
     <script>
   const btn = document.getElementById('button');
 
@@ -552,6 +554,21 @@ document.getElementById('form')
     }
   });
 </script>
+
+<!--PER CHIUDERE IL MENU MOBILE-->
+<script>
+  const navLinks = document.querySelectorAll('.nav-link');
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+        toggle: true
+      });
+    });
+  });
+</script>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
