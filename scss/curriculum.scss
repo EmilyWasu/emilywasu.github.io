@@ -1,5 +1,13 @@
 @use './_variables.scss';
 
+@media (max-width: 978px) {
+  body {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+
 .cv-main {
   background-color: var(--cv-bg);
   padding-top: 128px;

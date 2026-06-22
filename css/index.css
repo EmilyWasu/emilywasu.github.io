@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root,
 html[data-theme=light] {
   --title-font: "DM Sans", sans-serif;
@@ -77,11 +78,11 @@ html[data-theme=light] {
   --button-secondary-hover-text: #ffffff;
   --button-secondary-hover-border: #be7c90;
   --cv-bg: #ffffff;
-  --cv-surface: #ffffff;
+  --cv-surface: #f6eef1;
   --cv-text: #111111;
   --cv-text-muted: #444444;
   --cv-accent: #9E4F67;
-  --cv-badge-bg: #f6eef1;
+  --cv-badge-bg: #ffff;
   --cv-badge-text: #9E4F67;
   --cv-footer-border: rgba(17, 17, 17, 0.08);
 }
@@ -212,6 +213,11 @@ html[data-theme=dark] {
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
+.social-contact-link .bi {
+  font-size: clamp(2rem, 5vw, 1.75rem);
+  /* mobile: 2rem → desktop: 1.75rem (fs-3) */
+}
+
 /* CHI SONO */
 .about-section {
   background-color: var(--section-soft-bg);
@@ -315,7 +321,7 @@ html[data-theme=dark] {
   margin-bottom: 0.75rem;
 }
 
-.linkedin-contact-link {
+.social-contact-link {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
@@ -327,14 +333,14 @@ html[data-theme=dark] {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.linkedin-contact-link:hover,
-.linkedin-contact-link:focus {
+.social-contact-link:hover,
+.social-contact-link:focus {
   color: var(--link-accent-hover);
   transform: translateY(-1px);
 }
 
-.linkedin-contact-link i {
-  font-size: 1.2rem;
+.social-contact-link i {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
 }
 
 /* FOOTER */

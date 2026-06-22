@@ -103,11 +103,11 @@ html[data-theme="light"] {
   --button-secondary-hover-border: #be7c90;
 
   --cv-bg: #ffffff;
-  --cv-surface: #ffffff;
+  --cv-surface: #f6eef1;
   --cv-text: #111111;
   --cv-text-muted: #444444;
   --cv-accent: #9E4F67;
-  --cv-badge-bg: #f6eef1;
+  --cv-badge-bg: #ffff;
   --cv-badge-text: #9E4F67;
   --cv-footer-border: rgba(17, 17, 17, 0.08);
 }
@@ -247,4 +247,9 @@ html[data-theme="dark"] {
   font-weight: 600;
   border-radius: 0.5rem;
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.social-contact-link .bi {
+  font-size: clamp(2rem, 5vw, 1.75rem);
+  /* mobile: 2rem → desktop: 1.75rem (fs-3) */
 }

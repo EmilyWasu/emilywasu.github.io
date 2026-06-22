@@ -357,7 +357,7 @@
               href="https://www.linkedin.com/in/emiliana-forestiere"
               target="_blank"
               rel="noopener noreferrer"
-              class="linkedin-contact-link"
+              class="social-contact-link"
               aria-label="Visit my LinkedIn profile"
             >
               <i class="bi bi-linkedin"></i>
@@ -366,70 +366,41 @@
           </div>
 
           <!-- FORM -->
-          <div class="col-lg-7 px-4">
-            <form id="contact-form form" class="contact-form">
-              <div class="mb-3 field">
-                <label for="name" class="form-label">Nome</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  name="name"
-                  required
-                />
-              </div>
+          
+  <div class="col-lg-7 px-4 contact-section">
+  <form id="form" class="contact-form">
+  <div class="field mb-3 form-label">
+    <label for="name" class="form-label">Nome</label>
+    <input type="text" name="name" id="name" class="form-control">
+  </div>
 
-              <div class="mb-3 field">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  required
-                />
-              </div>
+    <div class="field mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="text" name="email" id="email" class="form-control">
+  </div>
 
-              <div class="mb-3 field">
-                <label for="title" class="form-label">Oggetto</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="title"
-                  name="title"
-                  required
-                />
-              </div>
+    <div class="field mb-3">
+    <label for="title" class="form-label">Oggetto</label>
+    <input type="text" name="title" id="title" class="form-control">
+  </div>
 
-              <div class="mb-4 field">
-                <label for="message" class="form-label">Messaggio</label>
-                <input
-                type="text"
-                  class="form-control"
-                  id="message"
-                  name="message"
-                  rows="6"
-                  required
-                ></input>
-              </div>
+  <div class="field mb-3">
+    <label for="message" class="form-label">Messaggio</label>
+    <input type="text" name="message" id="message" class="form-control" rows="6" required>
+  </div>
 
-              <input type="submit" class="btn btn-primary" id="button" value="Invia messaggio">
-            </input>
-            </form>
-          </div>
-        </div>
-      </div>
-    
+  <input type="submit" id="button" value="Send Email" class="btn btn-primary">
+</form>
 
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-    <script type="text/javascript">
-      emailjs.init('ksY67XSs4VtD-PWGL');
-    </script>
-    </section>
+<script type="text/javascript">
+  emailjs.init('ksY67XSs4VtD-PWGL')
+</script>
+</div>
+</div>
+</section>
 
     <!-----------------------------FOOTER---------------------------->
     <footer class="site-footer">
@@ -441,53 +412,47 @@
               href="https://www.linkedin.com/in/emiliana-forestiere"
               target="_blank"
               rel="noopener noreferrer"
-              class="linkedin-contact-link"
+              class="social-contact-link"
               aria-label="Visit my LinkedIn profile"
             >
-              <i class="bi bi-linkedin fs-3"></i>
+              <i class="bi bi-linkedin"></i>
             </a>
             <a
               href="https://github.com/EmilyWasu"
               target="_blank"
               rel="noopener noreferrer"
-              class="linkedin-contact-link"
+              class="social-contact-link"
               aria-label="Visit my Github profile"
             >
-              <i class="bi bi-github fs-3"></i>
+              <i class="bi bi-github"></i>
             </a>
 
             </div>
-          </div>
     </footer>
 
     <!------------------------------------Javascript----------------------------->
-
-    <!--EMAILJS-->
     <script>
-      const btn = document.getElementById('button');
+  const btn = document.getElementById('button');
 
-      document
-        .getElementById('form')
-        .addEventListener('submit', function (event) {
-          event.preventDefault();
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
 
-          btn.value = 'Sending...';
+   btn.value = 'Sending...';
 
-          const serviceID = 'default_service';
-          const templateID = 'template_pw54xwm';
+   const serviceID = 'default_service';
+   const templateID = 'template_pw54xwm';
 
-          emailjs.sendForm(serviceID, templateID, this).then(
-            () => {
-              btn.value = 'Invia messaggio';
-              alert('Sent!');
-            },
-            (err) => {
-              btn.value = 'Invia messaggio';
-              alert(JSON.stringify(err));
-            },
-          );
-        });
-    </script>
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+</script>
 
     <!--JS PER FILTRI PROGETTI-->
     <script>
@@ -538,7 +503,6 @@
     </script>
 
     <!--JS PER CAMBIO TEMA CHIARO/SCURO-->
-
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const root = document.documentElement;
