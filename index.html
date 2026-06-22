@@ -386,10 +386,11 @@
 
   <div class="field mb-3">
     <label for="message" class="form-label">Messaggio</label>
-    <input type="text" name="message" id="message" class="form-control" rows="6" required>
+    <textarea name="message" id="message" class="form-control" rows="6" required></textarea>
+
   </div>
 
-  <input type="submit" id="button" value="Send Email" class="btn btn-primary">
+  <input type="submit" id="button" value="Invia" class="btn btn-primary">
 </form>
 
 <script type="text/javascript"
@@ -445,10 +446,10 @@ document.getElementById('form')
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
+      btn.value = 'Invia';
       alert('Sent!');
     }, (err) => {
-      btn.value = 'Send Email';
+      btn.value = 'Invia';
       alert(JSON.stringify(err));
     });
 });
