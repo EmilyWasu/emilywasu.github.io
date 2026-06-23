@@ -118,53 +118,56 @@
 <section id="discovery-pdf" class="py-5">
   <div class="container">
 
-    <img src="../media/pdf-progetti/discovery/1.jpg" alt="discovery pagina 1" class="img-fluid mb-4" loading="lazy">
     <img src="../media/pdf-progetti/discovery/2.jpg" alt="discovery pagina 2" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/3.jpg" alt="discovery pagina 3" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/4.jpg" alt="discovery pagina 4" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/5.jpg" alt="discovery pagina 5" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/6.jpg" alt="discovery pagina 6" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/7.jpg" alt="discovery pagina 7" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/8.jpg" alt="discovery pagina 8" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/9.jpg" alt="discovery pagina 9" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/10.jpg" alt="discovery pagina 10" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/11.jpg" alt="discovery pagina 11" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/12.jpg" alt="discovery pagina 12" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/13.jpg" alt="discovery pagina 13" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/14.jpg" alt="discovery pagina 14" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/15.jpg" alt="discovery pagina 15" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/16.jpg" alt="discovery pagina 16" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/17.jpg" alt="discovery pagina 17" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/18.jpg" alt="discovery pagina 18" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/19.jpg" alt="discovery pagina 19" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/20.jpg" alt="discovery pagina 20" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/21.jpg" alt="discovery pagina 21" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/22.jpg" alt="discovery pagina 22" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/23.jpg" alt="discovery pagina 23" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/24.jpg" alt="discovery pagina 24" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/25.jpg" alt="discovery pagina 25" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/26.jpg" alt="discovery pagina 26" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/27.jpg" alt="discovery pagina 27" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/28.jpg" alt="discovery pagina 28" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/29.jpg" alt="discovery pagina 29" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/30.jpg" alt="discovery pagina 30" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/31.jpg" alt="discovery pagina 31" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/32.jpg" alt="discovery pagina 32" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/33.jpg" alt="discovery pagina 33" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/34.jpg" alt="discovery pagina 34" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/35.jpg" alt="discovery pagina 35" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/36.jpg" alt="discovery pagina 36" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/37.jpg" alt="discovery pagina 37" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/38.jpg" alt="discovery pagina 38" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/39.jpg" alt="discovery pagina 39" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/40.jpg" alt="discovery pagina 40" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/41.jpg" alt="discovery pagina 41" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/42.jpg" alt="discovery pagina 42" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/43.jpg" alt="discovery pagina 43" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/44.jpg" alt="discovery pagina 44" class="img-fluid mb-4" loading="lazy">
-    <img src="../media/pdf-progetti/discovery/45.jpg" alt="discovery pagina 45" class="img-fluid mb-4" loading="lazy">
+
   </div>
 </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+     <!--JS PER CAMBIO TEMA CHIARO/SCURO-->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const root = document.documentElement;
+    const toggle = document.querySelector("[data-theme-toggle]");
+    const STORAGE_KEY = "theme";
+
+    function getSystemTheme() {
+      return window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+    }
+
+    function getInitialTheme() {
+      return localStorage.getItem(STORAGE_KEY) || getSystemTheme();
+    }
+
+    function setTheme(theme) {
+      root.setAttribute("data-theme", theme);
+      root.setAttribute("data-bs-theme", theme);
+
+      if (toggle) {
+        toggle.setAttribute(
+          "aria-label",
+          theme === "dark" ? "Attiva tema chiaro" : "Attiva tema scuro"
+        );
+      }
+    }
+
+    function saveTheme(theme) {
+      localStorage.setItem(STORAGE_KEY, theme);
+    }
+
+    let currentTheme = getInitialTheme();
+    setTheme(currentTheme);
+
+    if (toggle) {
+      toggle.addEventListener("click", () => {
+        currentTheme = currentTheme === "dark" ? "light" : "dark";
+        setTheme(currentTheme);
+        saveTheme(currentTheme);
+      });
+    }
+  });
+</script>
  </body> 
