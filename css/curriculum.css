@@ -219,7 +219,7 @@ html[data-theme=dark] {
 }
 
 @media (max-width: 978px) {
-  body {
+  .cv-main .container {
     padding-left: 16px;
     padding-right: 16px;
   }
